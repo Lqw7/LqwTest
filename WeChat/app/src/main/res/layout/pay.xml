@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/pay_background"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/pay_title"
+        android:background="@color/pay_background"
+        android:layout_width="match_parent"
+        android:layout_height="71dp">
+        <ImageButton
+            android:id="@+id/pay_back"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/backpay"
+            android:layout_width="17dp"
+            android:layout_height="17dp" />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="31dp"
+            android:textColor="@color/titleText"
+            android:textSize="16sp"
+            android:text="@string/paytitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageButton
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/more"
+            android:layout_width="19dp"
+            android:layout_height="19dp" />
+
+    </LinearLayout>
+   <ScrollView
+       android:scrollbars="none"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/pay_shape"
+            android:layout_width="340dp"
+            android:layout_height="148dp">
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/recive_pay"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp" />
+                <TextView
+
+                    android:textSize="16sp"
+                    android:textColor="@color/purse"
+                    android:text="@string/recivemoney"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_marginTop="19dp"
+                    android:src="@drawable/purse"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp" />
+                <TextView
+                    android:layout_marginTop="2dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/purse"
+                    android:text="钱包"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textColor="@color/money"
+                    android:textSize="16sp"
+                    android:text="@string/money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:background="@drawable/card_shape"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:gravity="center_vertical"
+                android:textSize="14sp"
+                android:textColor="@color/pat_text_color"
+                android:text="@string/service"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:background="@color/grid_background"
+            android:layout_marginTop="1dp"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content">
+            <com.example.wechat.GridViewForScrollView
+                android:verticalSpacing="1dp"
+                android:horizontalSpacing="1dp"
+                android:numColumns="3"
+                android:id="@+id/pay_grid1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </com.example.wechat.GridViewForScrollView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:background="@drawable/card_shape"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:gravity="center_vertical"
+                android:textSize="14sp"
+                android:textColor="@color/pat_text_color"
+                android:text="@string/otherservice"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:background="@color/grid_background"
+            android:layout_marginTop="1dp"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content">
+            <com.example.wechat.GridViewForScrollView
+                android:verticalSpacing="1dp"
+                android:horizontalSpacing="1dp"
+                android:numColumns="3"
+                android:id="@+id/pay_grid2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </com.example.wechat.GridViewForScrollView>
+        </LinearLayout>
+        <ImageView
+            android:background="@color/pay_background"
+            android:layout_width="340dp"
+            android:layout_height="30dp" />
+
+    </LinearLayout>
+   </ScrollView>
+</LinearLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/popup_shape">
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/group"
+            android:layout_width="21dp"
+            android:layout_height="21dp" />
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:paddingVertical="10dp"
+            android:textSize="16sp"
+            android:text="@string/group_chat"
+            android:textColor="@color/popmeuText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/plus_dvier"
+        android:layout_width="110dp"
+        android:layout_height="0.5dp" />
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/addcontacts"
+            android:layout_width="21dp"
+            android:layout_height="21dp" />
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:paddingVertical="10dp"
+            android:textSize="16sp"
+            android:text="@string/add_friend"
+            android:textColor="@color/popmeuText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/plus_dvier"
+        android:layout_width="110dp"
+        android:layout_height="0.5dp" />
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/scan"
+            android:layout_width="21dp"
+            android:layout_height="21dp" />
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:paddingVertical="10dp"
+            android:textSize="16sp"
+            android:text="@string/scan"
+            android:textColor="@color/popmeuText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/plus_dvier"
+        android:layout_width="110dp"
+        android:layout_height="0.5dp" />
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/pay"
+            android:layout_width="21dp"
+            android:layout_height="21dp" />
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:paddingVertical="10dp"
+            android:textSize="16sp"
+            android:text="@string/pay"
+            android:textColor="@color/popmeuText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/plus_dvier"
+        android:layout_width="110dp"
+        android:layout_height="0.5dp" />
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/helpicon"
+            android:layout_width="21dp"
+            android:layout_height="21dp" />
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:paddingVertical="10dp"
+            android:textSize="16sp"
+            android:text="@string/help"
+            android:textColor="@color/popmeuText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

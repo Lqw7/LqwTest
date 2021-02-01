@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ListView
+                android:background="@color/list_background"
+                android:dividerHeight="0.5dp"
+                android:divider="@drawable/chat_listview_divier"
+                android:layout_marginTop="0dp"
+                android:id="@+id/contact_listview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </ListView>
+            <LinearLayout
+                android:background="@color/contact_background"
+                android:layout_width="match_parent"
+                android:layout_height="35dp">
+                <TextView
+                    android:text="@string/c"
+                    android:textColor="@color/chat_text"
+                    android:textSize="12sp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <ListView
+                android:background="@color/list_background"
+                android:dividerHeight="0.5dp"
+                android:divider="@drawable/chat_listview_divier"
+                android:id="@+id/contact_member_list2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </ListView>
+
+            <LinearLayout
+                android:background="@color/contact_background"
+                android:layout_width="match_parent"
+                android:layout_height="35dp">
+                <TextView
+                    android:text="@string/k"
+                    android:textColor="@color/chat_text"
+                    android:textSize="12sp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <ListView
+                android:background="@color/list_background"
+                android:dividerHeight="0.5dp"
+                android:divider="@drawable/chat_listview_divier"
+                android:id="@+id/contact_member_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </ListView>
+            <LinearLayout
+                android:background="@color/contact_background"
+                android:layout_width="match_parent"
+                android:layout_height="35dp">
+                <TextView
+                    android:text="@string/p"
+                    android:textColor="@color/chat_text"
+                    android:textSize="12sp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <ListView
+                android:background="@color/list_background"
+                android:dividerHeight="0.5dp"
+                android:divider="@drawable/chat_listview_divier"
+                android:id="@+id/contact_member_list3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </ListView>
+            <LinearLayout
+                android:background="@color/contact_background"
+                android:layout_width="match_parent"
+                android:layout_height="35dp">
+                <TextView
+                    android:text="@string/t"
+                    android:textColor="@color/chat_text"
+                    android:textSize="12sp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <ListView
+                android:background="@color/list_background"
+                android:dividerHeight="0.5dp"
+                android:divider="@drawable/chat_listview_divier"
+                android:id="@+id/contact_member_list1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </ListView>
+            <TextView
+                android:gravity="center"
+                android:background="@color/contact_background"
+                android:id="@+id/member_num"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:textColor="@color/chat_text"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+</ScrollView>
+
+
+</LinearLayout>
